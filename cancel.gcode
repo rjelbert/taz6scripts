@@ -35,5 +35,5 @@ G4 P60000
 M106 S0
 
 M117 Cancelled
-; switch off the print in progress LED (Octoprint Enclosure PlugIn)
+; switch off the print in progress LED with Octoprint Enclosure PlugIn
 ENC O3 S0
