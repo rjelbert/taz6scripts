@@ -20,7 +20,7 @@ M109 R{material_wipe_temperature} ; wait for extruder to reach wiping temp
 ; Taz6 y160 to y210, x16 is centre, x20 is left, x12 is right
 M117 Scrubbing...
 M106 S200 ; turn on part coling fan to harden the bits that are scrubbed off
-; its 19.5 because 20 triggers the X end stop switch and puts the bed out of alignment!!
+; its -19.5 because -20 triggers the X end stop switch and puts the bed out of alignment!!
 G1 X-19.5 Y210 Z10 F3000 ; move to scrub pad start position
 M400 ; wait to finish
 G1 X-19.5 Y210 Z3.5 F3000 ; get to scrub height of 3.5
